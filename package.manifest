@@ -1,0 +1,15 @@
+{
+  propertyEditors: [{
+    alias: "richTextParameter",
+    name: "Rich text parameter editor",
+    isParameterEditor: true,
+    editor: {
+      view: "~/App_Plugins/CustomParameterInputs/rte.html",
+      valueType: "TEXT"
+    }
+  }
+  ],
+  javascript: [
+    "~/App_Plugins/RichTextMacro/rte.controller.js"
+  ]
+}
