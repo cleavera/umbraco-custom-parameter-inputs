@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umbPackage>
+    <info>
+        <package>
+            <name>AC.CustomParameterInputs</name>
+            <version>1.0.0.0</version>
+            <license url="">MIT</license>
+            <url>https://github.com/cleavera/umbraco-custom-parameter-inputs</url>
+            <requirements>
+                <major>0</major>
+                <minor>0</minor>
+                <patch>0</patch>
+            </requirements>
+        </package>`
+        <author>
+            <name>Søren Kottal</name>
+            <website>http://skttl.dk/</website>
+        </author>
+        <readme>Parameter Editor Generator is a package that generates macro parameter editors from your Umbraco data types.</readme>
+    </info>
+    <DocumentTypes/>
+    <Templates/>
+    <Stylesheets/>
+    <Macros/>
+    <DictionaryItems/>
+    <Languages/>
+    <DataTypes/>
+    <control/>
+    <Actions/>
+    <files>
+        <file>
+            <guid>controller.js</guid>
+            <orgPath>/App_Plugins/skttl.ParameterEditorGenerator</orgPath>
+            <orgName>controller.js</orgName>
+        </file>
+        <file>
+            <guid>en-US.xml</guid>
+            <orgPath>/App_Plugins/skttl.ParameterEditorGenerator/Lang</orgPath>
+            <orgName>en-US.xml</orgName>
+        </file>
+        <file>
+            <guid>package.manifest</guid>
+            <orgPath>/App_Plugins/skttl.ParameterEditorGenerator</orgPath>
+            <orgName>package.manifest</orgName>
+        </file>
+        <file>
+            <guid>styles.css</guid>
+            <orgPath>/App_Plugins/skttl.ParameterEditorGenerator</orgPath>
+            <orgName>styles.css</orgName>
+        </file>
+        <file>
+            <guid>styles.min.css</guid>
+            <orgPath>/App_Plugins/skttl.ParameterEditorGenerator</orgPath>
+            <orgName>styles.min.css</orgName>
+        </file>
+        <file>
+            <guid>styles.scss</guid>
+            <orgPath>/App_Plugins/skttl.ParameterEditorGenerator</orgPath>
+            <orgName>styles.scss</orgName>
+        </file>
+        <file>
+            <guid>view.html</guid>
+            <orgPath>/App_Plugins/skttl.ParameterEditorGenerator</orgPath>
+            <orgName>view.html</orgName>
+        </file>
+    </files>
+</umbPackage>
