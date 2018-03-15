@@ -10,6 +10,6 @@
   }
   ],
   javascript: [
-    "~/App_Plugins/RichTextMacro/rte.controller.js"
+    "~/App_Plugins/CustomParameterInputs/rte.controller.js"
   ]
 }
